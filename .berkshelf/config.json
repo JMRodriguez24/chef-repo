@@ -1,0 +1,16 @@
+{
+  "chef": {
+    "chef_server_url": "https://api.opscode.com/organizations/us_jrod",
+    "validation_client_name": "us_jrod-validator",
+    "validation_key_path": ".chef/us_jrod-validator.pem",
+    "client_key": ".chef/jmrodriguez24.pem",
+    "node_name": "jmrodriguez24"
+  },
+  "vagrant": {
+    "vm": {
+      "box": "opscode-ubuntu-12.04-i386",
+      "box_url": "https://opscode-vm.s3.amazonaws.com/vagrant/opscode_ubuntu-12.04-i386_provisionerless.box",
+      "provision": "chef_client"
+    }
+  }
+}
