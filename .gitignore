@@ -53,3 +53,8 @@ $RECYCLE.BIN/
 
 # Vagrant
 .vagrant
+.kitchen/
+.kitchen.local.yml
+
+# Bundler
+.bundle
